@@ -37,7 +37,7 @@ export const usePDF = () => {
         pdf.setTextColor(203, 213, 225);
         pdf.setFontSize(14);
         pdf.setFont('helvetica', 'normal');
-        pdf.text('JOSUÉ DANIEL HERNÁNDEZ GÓMEZ - 0904 26 10239\nSECCION A - CONTABILIDAD\nLIC. Dany Miranda Hernández', width / 2, 400, { align: 'center' });
+        pdf.text('JOSUÉ DANIEL HERNÁNDEZ GÓMEZ - 0904 26 10239\nSECCION A - CONTABILIDAD\nLIC. DANY MIRANDA HERNÁNDEZ', width / 2, 400, { align: 'center' });
 
         accountingPrinciples.forEach((principle) => {
             pdf.addPage();

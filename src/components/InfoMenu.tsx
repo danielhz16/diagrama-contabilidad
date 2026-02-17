@@ -162,7 +162,9 @@ const InfoMenu = forwardRef<InfoMenuHandle, InfoMenuProps>(({ onExport, onExport
                                         <span>CARRERA</span>
                                     </div>
                                     <div style={{ color: isDarkMode ? '#94a3b8' : '#64748b', fontSize: '0.75rem', paddingLeft: '30px', marginTop: '4px', lineHeight: '1.4' }}>
-                                        INGENIERIA EN SISTEMAS DE LA INFORMACIÓN Y CIENCIAS DE LA COMPUTACIÓN
+                                        INGENIERIA EN SISTEMAS DE LA INFORMACIÓN Y CIENCIAS DE LA COMPUTACIÓN 
+                                         <br />
+                                          <span>CICLO I</span>
                                     </div>
                                 </div>
 
@@ -177,7 +179,7 @@ const InfoMenu = forwardRef<InfoMenuHandle, InfoMenuProps>(({ onExport, onExport
                                         CONTABILIDAD - SECCION A
                                     </div>
                                     <div style={{ color: isDarkMode ? '#94a3b8' : '#64748b', fontSize: '0.8rem', paddingLeft: '30px', marginTop: '4px', fontWeight: 'bold' }}>
-                                        LIC. Dany Miranda Hernández
+                                        LIC. DANY MIRANDA HERNÁNDEZ
                                     </div>
                                 </div>
 
@@ -203,7 +205,7 @@ const InfoMenu = forwardRef<InfoMenuHandle, InfoMenuProps>(({ onExport, onExport
                                 borderRadius: '8px',
                                 fontSize: '0.9rem',
                                 justifyContent: 'center',
-                                color: isDarkMode ? '#64748b' : '#475569',
+                                color: isDarkMode ? '#ffffff' : '#000000' ,
                                 border: isDarkMode ? '1px dashed rgba(255,255,255,0.1)' : '1px dashed rgba(0,0,0,0.1)'
                             }}>
                                 💡 Arrastra los nodos para organizar. <br />

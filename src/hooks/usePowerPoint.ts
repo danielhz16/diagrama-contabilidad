@@ -28,7 +28,7 @@ export const usePowerPoint = () => {
             fontSize: 36, bold: true, color: 'ffffff', align: 'center'
         });
 
-        titleSlide.addText('JOSUÉ DANIEL HERNÁNDEZ GÓMEZ - 0904 26 10239\nSECCION A - CONTABILIDAD\nLIC. Dany Miranda Hernández', {
+        titleSlide.addText('JOSUÉ DANIEL HERNÁNDEZ GÓMEZ - 0904 26 10239\nSECCION A - CONTABILIDAD\nLIC. DANY MIRANDA HERNÁNDEZ', {
             x: 0, y: 4.7, w: 10, h: 0.8,
             fontSize: 14, color: 'cbd5e1', align: 'center'
         });
